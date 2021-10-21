@@ -1,0 +1,15 @@
+.bigBoardCon {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: repeat(4, max-content);
+  gap: 5px 5px;
+  grid-gap: 5px 5px;
+  justify-content: center;
+}
+
+.turn
+{
+    grid-column: 1/4;
+    text-align: center;
+}
+

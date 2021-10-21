@@ -1,0 +1,25 @@
+.boardCon {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: repeat(3, max-content);
+  position: relative;
+}
+
+.overLay {
+  position: absolute;
+  cursor: default;
+  display: none;
+  border: none;
+  outline: none;
+}
+
+.overLay:disabled {
+  position: absolute;
+  display: initial;
+  background: rgba(255, 255, 255, 0.8);
+  height: 100%;
+  width: 100%;
+  cursor: default;
+  color: black;
+  font-size: 160px;
+}
