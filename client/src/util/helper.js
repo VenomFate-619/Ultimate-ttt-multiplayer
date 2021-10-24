@@ -27,4 +27,14 @@ function getGameCode()
     return window.location.href.split("/").slice(-1)[0]
 }
 
-export { checkWinner, getGameCode };
+
+function getWinner(winner,nameX,nameO)
+{
+    if(winner==="X")
+        return nameX;
+    if(winner==="O")
+        return nameO;
+    if(winner==="#")
+       return  "TIE"
+}
+export { checkWinner, getGameCode, getWinner };

@@ -14,11 +14,6 @@ function App() {
     });
   },[])
 
-  // useEffect(()=>{
-  //   socket.on("disconnect", function () {
-  //     alert(" server disconnected");
-  //   });
-  // },[])
 
   return (
     <Router>
