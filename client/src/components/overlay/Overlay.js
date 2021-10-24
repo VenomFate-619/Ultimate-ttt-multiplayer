@@ -1,7 +1,11 @@
 import React from 'react'
 import "./overlay.css"
-const Overlay = ({content}) => {
-    return <div className="overlay">{content}</div>;
-}
+const Overlay = ({ children }) => {
+  return (
+      <div  className="overlay" >
+          {children}
+      </div>
+  )
+};
 
 export default Overlay
