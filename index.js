@@ -6,7 +6,7 @@ const server = http.createServer(app);
 const port = process.env.PORT || 4000;
 const { v4: uuidv4 } = require("uuid");
 const io = socketIo(server, { cors: { origin: "*" } });
-
+const path = require("path")
 
 let clientRooms = [] 
 // roomId , arrayOfMoves , nameOfX , nameOfO , currentPlayer
@@ -71,9 +71,15 @@ io.on("connection", (socket) => {
 
 });
 
-app.get("/", (req, res) => {
-  res.send("hello moto");
-});
+if(process.env.NODE_ENV==="production")
+{
+    app.use(express.static('client/build'))
+    app.get('/*',(req,res)=>{
+      res.sendFile("index.html", {
+        root: path.join(__dirname + "/client/build"),
+      });
+    })
+}
 
 server.listen(port, () => {
   console.log(`Server is live at ${port} ✨`);
