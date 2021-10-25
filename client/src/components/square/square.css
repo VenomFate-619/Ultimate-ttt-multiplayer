@@ -1,8 +1,13 @@
-.squareButton
-{
-    color: black;
-    border: 1px solid black;
-    font-size: 3rem;
-    width: 4rem;
-    height: 4rem;
+.squareButton {
+  color: black;
+  border: 1px solid black;
+  font-size: 3rem;
+  width: 4rem;
+  height: 4rem;
+}
+@media screen and (max-width: 480px) {
+  .squareButton {
+    width: 2rem;
+    height: 2rem;
+  }
 }

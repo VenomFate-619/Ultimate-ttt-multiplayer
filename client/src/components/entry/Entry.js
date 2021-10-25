@@ -63,7 +63,7 @@ const Entry = ({ history }) => {
       <br />
       <p>Create a game</p>
       <br />
-      <form onSubmit={handleSubmitToCreateGame}>
+      <form onSubmit={handleSubmitToCreateGame} className="createGame">
         <input
           type="text"
           placeholder="Your name"
@@ -77,7 +77,7 @@ const Entry = ({ history }) => {
       <br />
       <p>Join a Game</p>
       <br />
-      <form onSubmit={handleSubmitToJoinGame}>
+      <form onSubmit={handleSubmitToJoinGame} className="joinGame">
         <input
           type="text"
           placeholder="Your name"

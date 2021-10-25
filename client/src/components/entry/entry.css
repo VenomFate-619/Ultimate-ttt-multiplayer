@@ -12,11 +12,35 @@
 
 .container input{
     padding: 8px 16px;
-    margin: 0 12px 12px 0;
+    /* margin: 0 12px 12px 0; */
 }
 
 .container button{
     padding: 8px 12px;
     border-radius: 4px;
     
+}
+.createGame
+{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 100px;
+  align-items: baseline;
+  max-width: 500px;
+}
+.joinGame {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 150px;
+  align-items: baseline;
+  max-width: 900px;
+}
+
+.joinGame input
+{
+  margin: 0;
 }
