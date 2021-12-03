@@ -10,3 +10,9 @@ You don’t get to pick which of the nine boards to play on. That’s determined
 If your opponent sends you to a board that's already been won, you can play anywhere on the board.
 
 If your opponent sends you to a board that's full, you can play anywhere on the board.
+
+**Video:-**
+
+
+https://user-images.githubusercontent.com/67755128/144597554-7b18e8ee-630a-4faf-8424-1b9390362114.mp4
+
