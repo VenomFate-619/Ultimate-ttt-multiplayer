@@ -1,16 +1,17 @@
 **How to Play**
 
-Each turn, you mark one of the small squares.
+With each turn, you mark one of the small squares.
 
 When you get three in a row on a small board, you win that board.
 
-To win the game, you need to win three small boards in a row.
+You need to win three small boards in a row to win the game.
 
-You don’t get to pick which of the nine boards to play on. That’s determined by your opponent’s previous move. Whichever square he picks, that’s the board you must play in next.
+You don’t get to pick the nine boards to play on. Your opponent’s previous move determines that. Whichever square he picks, that’s the board you must play in next.
 If your opponent sends you to a board that's already been won, you can play anywhere on the board.
 
 If your opponent sends you to a board that's full, you can play anywhere on the board.
 
+If you still don't get it read a detailed explanation here:- https://mathwithbaddrawings.com/2013/06/16/ultimate-tic-tac-toe/
 **Video:-**
 
 
